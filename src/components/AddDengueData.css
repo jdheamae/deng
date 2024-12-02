@@ -1,0 +1,53 @@
+/* AddDengueData.css */
+.form-container {
+    max-width: 500px;
+    margin: 50px  auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 650px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .dengue-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .dengue-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .dengue-form input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .dengue-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .dengue-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .dengue-form button:active {
+    background-color: #397739;
+  }
+  
