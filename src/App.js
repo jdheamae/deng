@@ -12,6 +12,7 @@ function App() {
         <Sidebar /> {/* Include Sidebar here for global layout */}
         <div className="main-content">
           <Routes>
+            <Route path="/" element ={<DengueDataList />}  /> 
             <Route path="/add" element={<AddDengueData />} />
             <Route path="/list" element={<DengueDataList />} />
             <Route path="/analy" element={<Analytic />} />
