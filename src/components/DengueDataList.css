@@ -111,3 +111,15 @@
     margin-top: 20px;
     margin-left: 350px;
 }
+
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.search-input {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
